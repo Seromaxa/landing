@@ -1,0 +1,89 @@
+.opacity 
+    opacity: 0
+    animation: appearance 4s linear .2s both 
+.translateY
+    overflow: hidden
+    animation: down 2s  linear .2s both   
+
+.left-right
+    li:nth-child(1)
+        animation: right 2s linear .2s both  
+    li:nth-child(2)
+        animation: left 2s linear .2s both       
+    li:nth-child(3)
+        animation: right 2s linear .2s both 
+    li:nth-child(4)
+        animation: left 2s linear .2s both   
+
+
+.wks-b
+    div:nth-child(1)
+        animation: turn-b 2s linear .2s both 
+
+    div:nth-child(2)
+        img
+            animation: left 2s linear .1s both
+.wks-w              
+    div:nth-child(1)
+        img
+            animation: right 2s linear .1s both   
+    div:nth-child(2)
+        animation: turn-w 2s linear .2s both                  
+
+
+.phon-text
+    h2 
+        animation: left 1.5s linear .2s both
+    p 
+        animation: left 1.5s linear .5s both
+    ul 
+        li:nth-child(1)
+            animation: left 1.5s linear .8s both 
+        li:nth-child(2)
+            animation: left 1.5s linear 1.1s both        
+        li:nth-child(3)
+            animation: left 1.5s linear 1.4s both 
+
+.iphon
+    img 
+        animation: left 1.4s linear  both 
+
+
+
+
+
+
+
+@keyframes appearance
+    0%
+        opacity: 0
+    100%
+        opacity: 1
+@keyframes down
+    0%
+        transform: translateY(-100%)
+    100%
+        transform: translateY(0)            
+
+@keyframes right
+    0%
+        transform: translateX(400%)
+    100%
+          transform: translateX(0)  
+
+@keyframes left
+    0%
+        transform: translateX(-400%)
+    100%
+          transform: translateX(0)               
+
+@keyframes turn-w
+    0%
+        transform: translate(-150%) scaleX(-1)
+    100%
+          transform: translate(0) scaleX(1)   
+@keyframes turn-b
+    0%
+        transform: translate(150%) scaleX(-1)
+    100%
+          transform: translate(0) scaleX(1)                

@@ -1,0 +1,234 @@
+@media screen and ( min-width: 300px ) and (max-width: 768px)
+    .header
+        background-size: cover                        
+    .head_logo
+        width: calc( 158px - 2 * (100vh - 300px) / 768 )
+    .header_nav
+        visibility: hidden 
+        display: block
+        width: 44%
+        position: absolute
+        padding-top: 23.2%
+        top: 0
+        right: 0
+        background: rgba(255,255,255,.5)
+        .header_links 
+            display: block 
+            padding: 0
+            width: 100% 
+            li 
+                margin-bottom: 10% 
+            a
+                color: #222222  
+        .header_social
+            width: 100%
+            padding: 3% 0
+            justify-content: space-between
+            flex-wrap: wrap
+            li 
+                margin: 7% 11%      
+    .menu__btn
+        display: flex
+    .hero
+        font-size: calc( 3em + 3 * (100vh - 300px) / 768 )
+    .ander-hero
+        letter-spacing: 0
+        font-size: calc( .75em + 2 * (100vh - 300px) / 768 )
+    .small-hero
+        text-align: center
+        top: 21%
+    .input-wrapper
+        flex-direction: column
+        margin-bottom: 10%    
+    .form                
+        input
+            width: 100%
+            margin-bottom: 8%
+        label
+            display: none  
+
+    #name::placeholder,
+    #email::placeholder,
+    #tel::placeholder,
+    #area::placeholder
+        color: #f5f5f5
+                
+    .button
+        width: 100%   
+        margin: 7% 0    
+
+@media screen and (max-width: 576px)
+    
+    .feature
+        display: block
+        h3 
+            text-align: center
+    .image
+        display: none
+    .ws-disc
+        width: 100%
+    .holder1
+        margin: 0 auto
+    .wrapper-hero
+        p 
+            display: none
+    .two_links
+        flex-wrap: wrap
+        li 
+            width: 100%
+            flex-direction: column
+            margin: 10% auto
+    .disp
+        display: none        
+    .phon-wrapper
+        width: 100%
+        .content-wrapper
+            width: 100%
+            height: 100%
+            padding-left: 8%
+    .team-list
+        li 
+            margin: 2% 0
+            width: 100%
+            img 
+                width: 100%
+                height: 100%
+                object-fit: cover
+        li:nth-child(1)img,
+        li:nth-child(2)img, 
+        li:nth-child(3)img, 
+        li:nth-child(4)img     
+            object-position: center
+
+    .contact
+        .small-hero
+            top: 0
+
+    
+
+    .footer-wrapper
+        p 
+            text-align: center   
+        img 
+            width:70%                
+    .blog-list
+        padding: 0 3%
+        justify-content: space-around
+        li:nth-child(4) .imag-conteiner
+            margin-left: 0
+        
+         
+
+
+@media screen and ( min-width: 577px  ) and (max-width: 768px)
+    .feature
+        flex-wrap: wrap
+        padding: 0
+        justify-content: center
+        li 
+            width: 44%
+    .ws-disc
+        padding: 2% 0 0 2%
+        line-height: 1.7em
+        .holder,
+        .holder1
+            margin: 0
+            width: 100%       
+    .blog-list
+        padding: 0 2%
+        li
+            margin-bottom: 3%     
+            h3 
+                text-align: center
+            p 
+                width: 80%
+                margin: 0 auto   
+        li:nth-child(4) .imag-conteiner
+            margin-left: 0        
+
+    .two_links
+        padding: 0 4%
+        justify-content: space-between
+        li 
+            flex-direction: column
+    .phon-holder
+        width: calc( 77% + 2 * (100vh - 577px) / 768 )   
+        height: 100%
+    .content-wrapper
+        margin-top: 0
+        width: 100%
+        height: 100%
+    .info-list
+        li
+            font-weight: 100   
+    .like-some
+        bottom: 4%  
+    .team-list
+        padding: 0 2%
+        justify-content: space-between
+        li 
+            margin: 0%
+            width: 47%   
+        .self-info
+            width: 66%
+
+
+@media screen and ( min-width: 769px ) and ( max-width: 1334px)
+    .header_nav
+        justify-content: space-between
+        flex-direction: column
+        .header_links
+            width: 100%
+            justify-content: space-between
+            padding-right: 4%
+            li,
+            li:nth-child(5)
+                margin: 0
+        .header_social 
+            width: 40%
+            justify-content: space-evenly
+            align-self: flex-end
+    .hero
+        font-size: calc( 6em + 2 * (100vh - 769px) / 1400 )
+    .ander-hero
+        letter-spacing: 0  
+    .feature 
+        padding: 0     
+
+    .ws-disc
+        padding: 2% 0 0 2%
+        line-height: 1.7em
+        .holder,
+        .holder1
+            margin: 0
+            width: 100%    
+
+    #tel + label
+        right: 21%    
+
+    .team-list
+        justify-content: space-evenly
+    .blog-list
+        justify-content: space-evenly    
+               
+@media screen and ( min-width: 1335px ) and ( max-width: 1598px)
+    .team-list,
+    .blog-list
+        padding: 4.3% 5%
+
+
+@media screen and ( min-width: 1601px )
+    .contact,
+    .phon
+        background-size: cover
+    .worck-wrapper
+        .image,
+        .image_height
+            img 
+                object-position: unset
+                width: 100%
+
+
+
+ 
+  
